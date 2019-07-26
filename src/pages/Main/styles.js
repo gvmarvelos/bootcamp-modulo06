@@ -33,6 +33,7 @@ export const SubmitButton = styled(RectButton)`
   padding: 0 12px;
   opacity: ${props => (props.loading ? 0.7 : 1)};
 `;
+
 export const List = styled.FlatList.attrs({
   showsVerticalScrollIndicator: false,
 })`
